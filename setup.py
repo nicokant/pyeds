@@ -3,8 +3,7 @@
 from setuptools import setup, find_packages
 
 # get version
-from pyeds import version
-version = '.'.join(str(x) for x in version)
+version = '3.0.0'
 
 # include additional files
 package_data = {
